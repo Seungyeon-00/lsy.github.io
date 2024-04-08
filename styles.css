@@ -1,0 +1,32 @@
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+#clock {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+#weather {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+#loginForm {
+    margin-bottom: 20px;
+}
+
+#list {
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+#randomImage {
+    margin-bottom: 20px;
+}
+
+button {
+    margin-left: 10px;
+}

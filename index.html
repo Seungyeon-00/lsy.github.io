@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Page</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Welcome to My Page</h1>
+        <div id="userSection">
+            <span id="usernameDisplay"></span>
+            <button id="logoutBtn">Logout</button>
+        </div>
+        <div id="clock"></div>
+        <div id="weather">
+            <span></span>
+            <span></span>
+        </div>
+        <form id="loginForm">
+            <input type="text" id="username" placeholder="Enter your name">
+            <button type="submit">Login</button>
+        </form>
+        <div id="todoListContainer">
+            <input type="text" id="todoInput" placeholder="Enter your todo">
+            <button id="addTodoBtn">Add</button>
+            <ul id="todoList"></ul>
+        </div>
+        <div id="randomImage"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
